@@ -4,7 +4,7 @@ Leetcode link-https://leetcode.com/problems/majority-element/submissions/1771010
 
 Approach of this question is start a for loop, and whenever the same element appears, increase the counter. If it’s a different element, decrease the counter. When the counter becomes zero, replace the current element with the one that now has zero frequency.
 
-
+```java
 class Solution {
 public int majorityElement(int[] num) {
     int a = num[0];
