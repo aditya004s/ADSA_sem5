@@ -4,7 +4,7 @@ Leetcode link-https://leetcode.com/problems/count-hills-and-valleys-in-an-array/
 
 Approach of this question is make a list of unique elements, then check each one against the element next to it.
 
-
+```java
 class Solution {
     public int countHillValley(int[] num) {
     int a = 0;
