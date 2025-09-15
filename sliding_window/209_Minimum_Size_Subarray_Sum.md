@@ -7,7 +7,7 @@ Approach of this question is Move the j pointer until the end of the array, keep
       Shrink the window by moving the i pointer forward and subtracting that element from the sum.
 Finally, return min if it was updated; otherwise, return 0.
 
-
+'''java
 class Solution {
     public int minSubArrayLen(int target, int[] num) {
         int sum = 0;
